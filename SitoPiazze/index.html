@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+<nav class="sidebar">
+    <label for="menu-toggle" class="close-menu">✕ Chiudi</label>
+    <a href="index.html">Home</a>
+    <a href="palermo.html">Palermo</a>
+    <a href="catania.html">Catania</a>
+    <a href="messina.html">Messina</a>
+    <a href="siracusa.html">Siracusa</a>
+    <a href="ragusa.html">Ragusa</a>
+    <a href="agrigento.html">Agrigento</a>
+    <a href="enna.html">Enna</a>
+    <a href="trapani.html">Trapani</a>
+    <a href="caltanissetta.html">Caltanissetta</a>
+</nav>
+
+<header>
+    <label for="menu-toggle" class="hamburger-label">☰</label>
+    <div class="logo-text">Agorà Sicilia</div>
+    <div class="search-icon">🔍</div>
+</header>
+</head>
+<body>
+
+
+    <main class="container">
+        <section>
+            <h1 class="city-title" style="border-top:none">In Evidenza</h1>
+            <img src="img/piazza_catania.jpg" alt="Sicilia" class="main-image">
+            <p class="description">
+                Benvenuti in un archivio dedicato alla scoperta dei centri nevralgici della cultura siciliana...
+            </p>
+        </section>
+
+        <section class="sub-section">
+            <h1 class="city-title">Esplora le città</h1>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <a href="ragusa.html" style="text-decoration:none; color:inherit;">
+                    <img src="img/chiesa_ragusa.jpg" class="small-image">
+                    <p><b>Ragusa</b></p>
+                </a>
+                <a href="palermo.html" style="text-decoration:none; color:inherit;">
+                    <img src="img/piazza_pretoria.jpg" class="small-image">
+                    <p><b>Palermo</b></p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>Agorà Sicilia</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

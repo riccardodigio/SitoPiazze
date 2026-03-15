@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agorà Sicilia - Palermo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="city-page">
+
+    <header>
+        <div class="header-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Agorà Sicilia</h1>
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="palermo.html">Palermo</a></li>
+                <li><a href="catania.html">Catania</a></li>
+                <li><a href="messina.html">Messina</a></li>
+                <li><a href="ragusa.html">Ragusa</a></li>
+                <li><a href="siracusa.html">Siracusa</a></li>
+                <li><a href="caltanissetta.html">Caltanissetta</a></li>
+                <li><a href="enna.html">Enna</a></li>
+                <li><a href="trapani.html">Trapani</a></li>
+                <li><a href="agrigento.html">Agrigento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="city-main">
+        <article class="city-article">
+            
+            <header class="article-header">
+                <h2>Piazza Pretoria - Palermo</h2>
+                 <p>Situata nel cuore pulsante del centro storico, Piazza Pretoria rappresenta il baricentro dell'amministrazione civica palermitana fin dal XVI secolo.</p>
+                <div class="main-image">
+                    <img src="images/piazza_pretoria.jpg" alt="Piazza Pretoria - Palermo">
+                </div>
+            </header>
+
+            <section class="article-content">
+                <p>Al centro di questo spazio monumentale si staglia la celebre Fontana Pretoria, un'opera che con le sue numerose statue marmoree definisce l'identità visiva e la centralità della piazza. La sua imponente struttura organizza il flusso urbano, fungendo da perno visivo tra le diverse anime architettoniche che convivono in questo nodo fondamentale del capoluogo.</p>
+                
+                <h3>Il Potere Civile: Palazzo Pretorio</h3>
+                
+                <div class="secondary-image-text">
+                    <div class="secondary-image">
+                        <img src="images/FontanaPretoria_dettaglio.jpg" alt="FontanaPretoria">
+                    </div>
+                    <div class="text-column">
+                        <p>La piazza ospita il Palazzo Pretorio (noto anche come Palazzo delle Aquile), storica sede del Comune di Palermo. 
+La centralità della piazza è garantita non solo dalla presenza istituzionale, ma anche dalla monumentale Fontana Pretoria che ne definisce l'identità visiva in tutto il mondo.</p>
+                      
+                        <p>L'identificabilità di Piazza Pretoria risiede nel contrasto tra la solennità dei palazzi del potere e la ricchezza decorativa della fontana rinascimentale. È un luogo dove la funzione amministrativa e l'arte monumentale convivono, rispondendo perfettamente al criterio di centralità urbana definito dal progetto.</p>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; Agorà Sicilia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

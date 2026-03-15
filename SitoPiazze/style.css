@@ -1,0 +1,134 @@
+sidebar {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    transition: 0.3s;
+    padding: 40px 20px;
+    z-index: 200;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Layout Contenuto */
+.container {
+    max-width: 600px; /* Mantiene l'aspetto "mobile-first" del tuo design */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1.city-title {
+    color: #8B2121; /* Rosso scuro dei titoli */
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-top: 2px solid #8B2121;
+    padding-top: 10px;
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 12px; /* Arrotondamento come da foto */
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.description {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.small-image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+/* Nascondi la checkbox fisica */
+.menu-checkbox {
+    display: none;
+}
+
+/* Stile del tasto hamburger */
+.hamburger-label {
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Sidebar (Menu) - Stato iniziale: fuori dallo schermo a sinistra */
+.sidebar {
+    position: fixed;
+    left: -280px; /* Nascosto */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    transition: all 0.3s ease; /* Movimento fluido */
+    padding: 40px 20px;
+    z-index: 1000;
+}
+
+/* LA MAGIA: Se la checkbox è cliccata, sposta la sidebar a 0 */
+.menu-checkbox:checked ~ .sidebar {
+    left: 0;
+}
+
+/* Overlay opzionale: se vuoi che il resto della pagina si scurisca quando il menu è aperto */
+.menu-checkbox:checked ~ main {
+    filter: brightness(0.5);
+    pointer-events: none; /* Impedisce di cliccare il contenuto sotto */
+}
+
+/* Tasto chiudi dentro il menu */
+.close-menu {
+    display: block;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #8B2121;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+/* Responsive: Se lo schermo è grande, allarga leggermente il contenitore */
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+        padding: 40px;
+    }
+}

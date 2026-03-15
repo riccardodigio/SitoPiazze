@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agorà Sicilia - Enna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="city-page">
+
+    <header>
+        <div class="header-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Agorà Sicilia</h1>
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="palermo.html">Palermo</a></li>
+                <li><a href="catania.html">Catania</a></li>
+                <li><a href="messina.html">Messina</a></li>
+                <li><a href="ragusa.html">Ragusa</a></li>
+                <li><a href="siracusa.html">Siracusa</a></li>
+                <li><a href="caltanissetta.html">Caltanissetta</a></li>
+                <li><a href="enna.html">Enna</a></li>
+                <li><a href="trapani.html">Trapani</a></li>
+                <li><a href="agrigento.html">Agrigento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="city-main">
+        <article class="city-article">
+            
+            <header class="article-header">
+                <h2>Piazza Vittorio Emanuele - Enna</h2>
+                
+                 <p>Situata nel cuore del centro storico, questa piazza rappresenta il punto d'incontro fondamentale della vita cittadina ennese, agendo da cerniera tra i quartieri medievali e l'espansione moderna.</p>
+
+                 <div class="main-image">
+                    <img src="images/piazza_enna.png" alt="Piazza Vittorio Emanuele - Enna">
+                </div>
+            </header>
+
+            <section class="article-content">
+                <p>L'identificabilità dello spazio è data dalla sua conformazione di 'terrazza' urbana. Nota come il belvedere della città, la piazza organizza i flussi pedonali verso i principali uffici pubblici e i monumenti religiosi, confermando il suo ruolo di baricentro sociale del capoluogo.</p>
+
+
+                <h3>Il polo civico e amministrativo</h3>
+                
+                <div class="secondary-image-text">
+                    <div class="secondary-image">
+                        <img src="images/dettaglio_enna.png" alt="dettaglio_enna">
+                    </div>
+                    <div class="text-column">
+                        <p>In linea con il criterio di progetto, Piazza Vittorio Emanuele ospita i principali uffici amministrativi e si pone come cuore della vita pubblica ennese. La vicinanza strategica ai centri del potere civile e la presenza di importanti edifici di culto la rendono il nucleo centrale della struttura urbana, garantendo quella centralità e identificabilità.</p>
+
+
+                        <p>Piazza Vittorio Emanuele ad Enna è l'esempio di come la topografia montana possa essere trasformata in un centro istituzionale organico. La sua funzione di snodo amministrativo risponde perfettamente al criterio di selezione, chiudendo il percorso attraverso le piazze del potere in Sicilia.</p>
+                        
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; Agorà Sicilia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agorà Sicilia - Caltanissetta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="city-page">
+
+    <header>
+        <div class="header-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Agorà Sicilia</h1>
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="palermo.html">Palermo</a></li>
+                <li><a href="catania.html">Catania</a></li>
+                <li><a href="messina.html">Messina</a></li>
+                <li><a href="ragusa.html">Ragusa</a></li>
+                <li><a href="siracusa.html">Siracusa</a></li>
+                <li><a href="caltanissetta.html">Caltanissetta</a></li>
+                <li><a href="enna.html">Enna</a></li>
+                <li><a href="trapani.html">Trapani</a></li>
+                <li><a href="agrigento.html">Agrigento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="city-main">
+        <article class="city-article">
+            
+            <header class="article-header">
+                <h2>Piazza  Garibaldi - Caltanissetta</h2>
+                
+                 <p>Crocevia esatto del centro storico cittadino, Piazza Garibaldi rappresenta il cuore geografico e istituzionale del capoluogo nisseno, snodo vitale dove si intersecano le due arterie principali della città.</p>
+
+                 <div class="main-image">
+                    <img src="images/piazza_caltanisetta.jpg" alt="Piazza  Garibaldi - Caltanissetta">
+                </div>
+            </header>
+
+            <section class="article-content">
+                <p>L'identificabilità dello spazio è fortemente marcata dalla monumentale Fontana del Tritone, posizionata nel baricentro esatto della piazza. Quest'opera in bronzo non solo definisce l'estetica dell'area, ma funge da fulcro visivo attorno al quale ruota l'intero impianto urbano, rendendo il luogo inconfondibile.</p>
+
+
+                <h3>Il Doppio Potere: Cattedrale e Palazzo del Carmine</h3>
+                
+                <div class="secondary-image-text">
+                    <div class="secondary-image">
+                        <img src="images/dettaglio_caltaniesetta.jpg" alt="dettaglio_caltaniesetta">
+                    </div>
+                    <div class="text-column">
+                        <p>In perfetta aderenza al criterio di selezione del progetto, Piazza Garibaldi ospita simultaneamente i due massimi centri nevralgici cittadini. Da un lato la Cattedrale di Santa Maria La Nova, centro della vita spirituale; dall'altro il Palazzo del Carmine (ex convento carmelitano), odierna sede del Palazzo di Città. Questa coesistenza garantisce l'assoluta centralità istituzionale e sociale dell'area.</p>
+                        
+
+                        <p>Piazza Garibaldi a Caltanissetta è l'esempio emblematico di come l'urbanistica siciliana sia riuscita a concentrare in un unico e armonico palcoscenico monumentale sia la fede che l'amministrazione civile. La struttura simmetrica dello spazio risponde appieno ai vincoli di questo archivio digitale.</p>
+
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; Agorà Sicilia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

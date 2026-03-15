@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agorà Sicilia - Messina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="city-page">
+
+    <header>
+        <div class="header-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Agorà Sicilia</h1>
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="palermo.html">Palermo</a></li>
+                <li><a href="catania.html">Catania</a></li>
+                <li><a href="messina.html">Messina</a></li>
+                <li><a href="ragusa.html">Ragusa</a></li>
+                <li><a href="siracusa.html">Siracusa</a></li>
+                <li><a href="caltanissetta.html">Caltanissetta</a></li>
+                <li><a href="enna.html">Enna</a></li>
+                <li><a href="trapani.html">Trapani</a></li>
+                <li><a href="agrigento.html">Agrigento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="city-main">
+        <article class="city-article">
+            
+            <header class="article-header">
+                <h2>Piazza del Duomo - Messina</h2>
+                 <p>Simbolo della rinascita cittadina dopo il 1908, Piazza del Duomo è un ampio spazio quadrangolare che funge da palcoscenico per i più importanti monumenti della città, dominando la scena urbana tra il porto e le colline.</p>
+                 <div class="main-image">
+                    <img src="images/chiesa_messina.jpg" alt="Piazza del Duomo - Messina">
+                </div>
+            </header>
+
+            <section class="article-content">
+                <p>L'identificabilità della piazza è legata indissolubilmente al Campanile Astronomico, il più grande e complesso al mondo. Ogni giorno a mezzogiorno, il movimento delle figure meccaniche attira cittadini e visitatori, rendendo questo spazio il vero cuore pulsante e dinamico del capoluogo messinese.</p>
+               
+               
+                <h3>Il Baricentro della Ricostruzione</h3>
+                
+                <div class="secondary-image-text">
+                    <div class="secondary-image">
+                        <img src="images/dettaglio_messinai.jpg" alt="dettaglio_messina">
+                    </div>
+                    <div class="text-column">
+                        <p>La piazza ospita la Cattedrale di Messina, ricostruita fedelmente nelle sue linee normanne, e il suo Campanile. 
+Questo complesso religioso rappresenta il pilastro identitario della città. La vastità della piazza e la sua apertura verso il tessuto urbano circostante garantiscono la centralità richiesta dal criterio di progetto, unendo la sacralità del Duomo alla vita civile della comunità.</p>
+
+
+                        <p>A differenza dei barocchi chiusi di altre province, la Piazza del Duomo di Messina si distingue per la sua ariosità e il rigore geometrico. Essa incarna perfettamente il ruolo di spazio centrale dove l'istituzione religiosa diventa il punto di riferimento visivo e sociale per l'intera cittadinanza.</p>
+                            
+                        </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; Agorà Sicilia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

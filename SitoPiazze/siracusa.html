@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agorà Sicilia - Siracusa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="city-page">
+
+    <header>
+        <div class="header-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Agorà Sicilia</h1>
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="palermo.html">Palermo</a></li>
+                <li><a href="catania.html">Catania</a></li>
+                <li><a href="messina.html">Messina</a></li>
+                <li><a href="ragusa.html">Ragusa</a></li>
+                <li><a href="siracusa.html">Siracusa</a></li>
+                <li><a href="caltanissetta.html">Caltanissetta</a></li>
+                <li><a href="enna.html">Enna</a></li>
+                <li><a href="trapani.html">Trapani</a></li>
+                <li><a href="agrigento.html">Agrigento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="city-main">
+        <article class="city-article">
+            
+            <header class="article-header">
+                <h2>Piazza Duomo - Siracusa</h2>
+                 <p>"Situata nel punto più alto dell'isola di Ortigia, questa piazza semi-ellittica è uno dei più alti esempi di stratificazione storica in Sicilia, dove l'architettura classica incontra il fasto del barocco."</p>
+                 <div class="main-image">
+                    <img src="images/piazza_siracusa.jpg" alt="Piazza Duomo - Siracusa">
+                </div>
+            </header>
+
+            <section class="article-content">
+                <p>"L'identificabilità dello spazio è definita dalla singolare struttura della Cattedrale, che ingloba al suo interno le colonne doriche dell'antico Tempio di Atena del V secolo a.C. Questa continuità architettonica rende la piazza un punto di riferimento unico al mondo, dove il sacro si manifesta attraverso i millenni."</p>
+               
+                <h3>Il Dialogo tra Fede e Governo: Palazzo Vermexio</h3>
+                
+                <div class="secondary-image-text">
+                    <div class="secondary-image">
+                        <img src="images/dettaglio _siracura.png" alt="dettaglio_messina">
+                    </div>
+                    <div class="text-column">
+                        <p>"La piazza incarna perfettamente il criterio di centralità ospitando la Cattedrale di Siracusa e il contiguo Palazzo Vermexio, sede del Palazzo di Città. 
+Il contrasto tra le linee barocche del Duomo e il rigore geometrico del palazzo municipale definisce il baricentro decisionale e spirituale del capoluogo, racchiuso in un salotto urbano di straordinaria eleganza."</p>
+
+                        <p>"Piazza del Duomo a Siracusa rappresenta la massima espressione di spazio pubblico inteso come organismo storico vivente. La compresenza delle istituzioni civili e religiose, incastonate nel bianco candore della pietra locale, risponde pienamente alla ricerca di un sistema coerente e identificabile per il tessuto urbano siciliano."</p>
+                        
+                    
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; Agorà Sicilia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

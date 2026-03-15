@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agorà Sicilia - Trapani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="city-page">
+
+    <header>
+        <div class="header-content">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <h1 class="logo">Agorà Sicilia</h1>
+            <button class="search-icon">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="palermo.html">Palermo</a></li>
+                <li><a href="catania.html">Catania</a></li>
+                <li><a href="messina.html">Messina</a></li>
+                <li><a href="ragusa.html">Ragusa</a></li>
+                <li><a href="siracusa.html">Siracusa</a></li>
+                <li><a href="caltanissetta.html">Caltanissetta</a></li>
+                <li><a href="enna.html">Enna</a></li>
+                <li><a href="trapani.html">Trapani</a></li>
+                <li><a href="agrigento.html">Agrigento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="city-main">
+        <article class="city-article">
+            
+            <header class="article-header">
+                <h2>Piazza Vittorio Emanuele - Trapani </h2>
+                
+                 <p>Vasto spazio urbano situato a pochi passi dal mare, questa piazza funge da imponente cerniera monumentale tra l'antica città falcata e lo sviluppo urbanistico della Trapani moderna.</p>
+
+                 <div class="main-image">
+                    <img src="images/piazza_trapani.png" alt="Piazza Vittorio Emanuele - Trapani">
+                </div>
+            </header>
+
+            <section class="article-content">
+                <p>"L'identificabilità dell'area è garantita dalla presenza del monumentale gruppo scultoreo dedicato a Vittorio Emanuele II, che domina visivamente l'intero slargo. Quest'opera organizza in modo radiale i flussi di cittadini e visitatori, rendendo la piazza un punto di riferimento ineludibile per l'orientamento cittadino.</p>
+
+                <h3>Il Nodo Istituzionale e Monumentale</h3>
+                
+                <div class="secondary-image-text">
+                    <div class="secondary-image">
+                        <img src="images/dettaglio_trapani.png" alt="dettaglio_trapani">
+                    </div>
+                    <div class="text-column">
+                        <p>In linea con il criterio di progetto, la piazza si afferma come snodo istituzionale primario. Rappresenta il vero centro di gravità attorno a cui ruotano gli uffici amministrativi e la vita pubblica trapanese. La sua ampiezza e la vicinanza strategica ai palazzi del potere civico le conferiscono quella centralità essenziale richiesta per il capoluogo.</p>
+                        
+
+                        <p>Piazza Vittorio Emanuele a Trapani dimostra come l'impianto urbano possa definire la propria identità non solo attraverso gli edifici perimetrali, ma trasformando la piazza stessa nel centro vitale e nel motore della vita civica e amministrativa.</p>
+
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; Agorà Sicilia</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
